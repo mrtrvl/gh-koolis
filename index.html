@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minu Veebileht</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f9fa;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: #24292e;
+            color: white;
+            padding: 3rem 1rem;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            color: #c9d1d9;
+            font-size: 1.2rem;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+            flex: 1;
+        }
+
+        section {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            margin-bottom: 1.5rem;
+        }
+
+        h2 {
+            color: #24292e;
+            margin-bottom: 1rem;
+            border-bottom: 2px solid #eaecef;
+            padding-bottom: 0.3rem;
+        }
+
+        p {
+            margin-bottom: 1rem;
+        }
+
+        .links {
+            display: flex;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #0366d6;
+            color: white;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+            transition: background-color 0.2s;
+        }
+
+        .btn:hover {
+            background-color: #024ea4;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1.5rem;
+            color: #6a737d;
+            font-size: 0.9rem;
+            border-top: 1px solid #eaecef;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Tere tulemast!</h1>
+        <p>Minu isiklik tutvustusleht GitHub Pagesis</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Minust</h2>
+            <p>Arendan oma esimest veebilehte ja see on majutatud otse GitHub Pages keskkonnas. Siia saad kirjutada lühikese tutvustuse endast, oma hobidest või projektidest.</p>
+        </section>
+
+        <section>
+            <h2>Kontakt ja lingid</h2>
+            <p>Leia mind järgmistelt platvormidelt:</p>
+            <div class="links">
+                <a href="https://github.com" target="_blank" class="btn">GitHub</a>
+                <a href="https://linkedin.com" target="_blank" class="btn">LinkedIn</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Minu Veebileht. Majutatud GitHub Pagesis.</p>
+    </footer>
+
+</body>
+</html>
